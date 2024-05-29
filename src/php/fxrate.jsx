@@ -1,6 +1,5 @@
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
-import useInterval from 'use-interval'
 
 export const AutoExchangeRates = () => {
 
