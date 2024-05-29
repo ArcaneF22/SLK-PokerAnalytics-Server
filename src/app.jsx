@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FXRate } from './upsert/exchangerates'
+import { AutoExchangeRates } from './php/fxrate'
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
         <button onClick={() => setCount(count + 1)}>Count</button>
       </div>
       <div>
-        <FXRate />
+      <AutoExchangeRates />
       </div>
 
     </main>
